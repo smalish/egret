@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainSceneSkin" width="635" height="1133" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e1b805b08" ></w:Config>
+	<e:Image source="homeBg_jpg" left="1" right="-1" top="0" bottom="0"/>
+	<e:Group id="Group_mbtn" width="610" height="125" anchorOffsetX="0" anchorOffsetY="0" bottom="0" left="10">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="contentJustify" gap="3"/>
+		</e:layout>
+		<e:ToggleButton id="mbtn_player" label="ToggleButton" x="0" y="33" enabled="true" skinName="BtnPlayerSkin" width="150"/>
+		<e:ToggleButton id="mbtn_hero" label="ToggleButton" x="323" y="24" width="150" skinName="BtnHeroSkin"/>
+		<e:ToggleButton id="mbtn_goods" label="ToggleButton" x="378" y="29" width="150" skinName="BtnProductSkin"/>
+		<e:ToggleButton id="mbtn_about" label="ToggleButton" x="430" y="11" width="150" skinName="BtnAboutSkin"/>
+	</e:Group>
+</e:Skin>

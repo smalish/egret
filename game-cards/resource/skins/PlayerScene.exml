@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlayerSceneSkin" width="635" height="1133" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16e1bfeded2" ></w:Config>
+	<e:Image source="commonBg_jpg" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="profileTitle_png" x="236" y="197"/>
+	<e:Image source="profileContent_png" x="50" y="273" anchorOffsetX="0" width="526" anchorOffsetY="0" height="336"/>
+	<e:Scroller width="542" height="200" x="39" y="629" anchorOffsetX="0">
+		<e:List/>
+	</e:Scroller>
+	<e:Button id="btn_back" label="" x="34" y="191" anchorOffsetX="0" width="86" anchorOffsetY="0" height="48" enabled="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="90%" height="90%" source="btnReturn_png" source.down="btnReturn_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_goods" label="" x="96" y="877" anchorOffsetX="0" width="174" anchorOffsetY="0" height="58" enabled="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="90%" height="90%" source="btnEquip_png" source.down="按下状态资源名btnEquip_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_strong" label="" x="356" y="878" anchorOffsetX="0" width="178" height="57" anchorOffsetY="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="90%" height="90%" source="btnStrengthen_png" source.down="btnStrengthen_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BtnAboutSkin" width="133" height="78" currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  states="up,disabled"  width.disabled="111">
+	<w:Config id="16e1bba09c3" ></w:Config>
+	<e:Image source="mbtn_BgFc_png" includeIn="disabled" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="mbtnAbout_png" includeIn="disabled" left="0" right="0" top="0" bottom="0" width="111"/>
+	<e:Image source="mbtn_Bg_png" includeIn="up" left="0" right="0" top="0" bottom="0"/>
+	<e:Image source="mbtnAbout_png" includeIn="up" left="0" right="0" top="0" bottom="0"/>
+</e:Skin>

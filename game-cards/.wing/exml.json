@@ -1,0 +1,47 @@
+{
+    "16e1b805b08": {
+        "path": "MainScene.ts",
+        "class": "MainScene",
+        "parentPath": ""
+    },
+    "global": {
+        "globalAdsorbEnable": false,
+        "globalRulerEnable": false,
+        "globalBindingDataTestObj": []
+    },
+    "16e1bb35b5a": {
+        "backgroundX": 0,
+        "backgroundY": 0,
+        "backgroundWidth": -1,
+        "backgroundHeight": -1,
+        "useBgImage": true,
+        "useBgColor": true,
+        "backgroundAlpha": 100,
+        "bindingDataTestObj": []
+    },
+    "16e1bb8a246": {
+        "path": "BtnHero.ts",
+        "class": "BtnHero",
+        "parentPath": ""
+    },
+    "16e1bb96f86": {
+        "path": "BtnProduct.ts",
+        "class": "BtnProduct",
+        "parentPath": ""
+    },
+    "16e1bba09c3": {
+        "path": "BtnAbout.ts",
+        "class": "BtnAbout",
+        "parentPath": ""
+    },
+    "16e1bfeded2": {
+        "path": "PlayerScene.ts",
+        "class": "PlayerScene",
+        "parentPath": ""
+    },
+    "16e1c03527c": {
+        "path": "BtnBack.ts",
+        "class": "BtnBack",
+        "parentPath": ""
+    }
+}
