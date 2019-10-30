@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="640" height="1136" currentState="startbg" xmlns:e="http://ns.egret.com/eui" states="startbg"  xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="16e16b68055"/>
+	<e:Image source="bgImg_png" left="0" right="0" top="0" bottom="0"/>
+	<e:BitmapLabel width="20" height="20" includeIn="startbg" x="241" y="493"/>
+	<e:Image includeIn="startbg" anchorOffsetX="0" anchorOffsetY="0" rotation="0.24" top="0" bottom="0" left="0" right="0"/>
+	<e:Image source="aImg_png" includeIn="startbg" x="49.11" y="134.73" anchorOffsetX="0" width="541.79" anchorOffsetY="0" height="319.97"/>
+	<e:Image source="bImg_png" includeIn="startbg" x="52.1" y="672.86" anchorOffsetX="0" width="538.85" anchorOffsetY="0" height="314.94"/>
+	<e:Image id="img_ball" source="ballImg_png" includeIn="startbg" x="317.91" y="563.97" anchorOffsetX="76.45" anchorOffsetY="75.7" width="154.01" height="149.43"/>
+	<e:Button id="btn_start" label="" width="160" height="160" horizontalCenter="203" verticalCenter="0" enabled="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled,pause,resume,reset">
+			<e:Image width="100%" height="100%" source="btnImg_png" source.down="btnImg_png" source.disabled="btnImg_png" source.pause="pause_png" source.resume="resume_png" source.reset="reset_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="win_bottom" source="win_png" anchorOffsetY="0" left="97" right="101" top="673" bottom="144" anchorOffsetX="0" visible="false"/>
+	<e:Image id="win_top" source="win_png" anchorOffsetY="0" left="115" right="114" top="147" bottom="694" anchorOffsetX="0" visible="false"/>
+</e:Skin>

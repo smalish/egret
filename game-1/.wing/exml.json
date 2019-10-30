@@ -1,0 +1,15 @@
+{
+  "global": {
+    "globalAutoLayerMarkEnable": true,
+    "globalAdsorbEnable": true
+  },
+  "16e16b68055": {
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  }
+}
